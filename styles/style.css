@@ -20,6 +20,12 @@
   list-style-position: inside;
   padding: 0;
 }
+.footer__nav {
+  flex-direction: column;
+  gap: 0;
+  text-align: center;
+  list-style: none;
+}
 .header__nav-item:first-child,
 .footer__nav-item:first-child {
   list-style: none;
@@ -29,7 +35,7 @@
   text-decoration: none;
 }
 .header__logo {
-  width: 148px;
+  width: 140px;
   margin: 0 184px 0 36px;
 }
 .header__address {
@@ -162,9 +168,9 @@
 }
 .about {
   display: flex;
-  justify-content: space-between;
-  gap: 72px;
-  margin: 120px 25px 0 25px;
+  justify-content: flex-start;
+  gap: 70px;
+  margin: 120px 25px 0 68px;
 }
 .about__logo {
   display: flex;
@@ -173,6 +179,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
+  margin-top: 35px;
   background-color: black;
   border-radius: 50%;
   padding: 60px 50px;
